@@ -1,0 +1,2 @@
+Abra primero el index.html
+(una pagina completamente basica) para facilitar la transición entre páginas.

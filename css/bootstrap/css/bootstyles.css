@@ -1,0 +1,105 @@
+body {
+	background: #000000
+}
+#supremediv {
+	width: 85%;
+	margin: auto;
+}
+.headerpersonalizer {
+	background-color: white;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+header {
+	background: #FFFFFF;
+	margin:0 1px !important;
+}
+nav {
+	background-color: #FFFFFF !important;
+	margin-top: -1px;
+	border: none !important;
+}
+.logo {
+	height: 90px;
+}
+.socialogo {
+	width: 45px;
+	margin-top: 12%;
+}
+.nav li {
+	margin-left: 100px;
+}
+.contenedor {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 0px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.post {
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.undertalepost img {
+	width: 100%;
+	float: right;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+.justillepost img {
+	width: 100%;
+	float: left;
+	margin-top: 23px;
+	border-radius: 10px;
+}
+.avatar {
+	width: 70%;
+}
+.comments textarea {
+	margin-top: 6px;
+}
+.searchbox {
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px){
+	.nav li {
+		margin-left: 60px;
+	}
+	.only-pc {
+		display: none;
+	}
+	.comments{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 768px){
+	.nav li {
+		margin-left: 30px;
+	}
+	.only-pc {
+		display: none;
+	}
+	.comments{
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 480px){
+	.nav li {
+		margin: auto;
+	}
+	.logo {
+		width: 90%;
+		height: 80%;
+	}
+	.only-pc {
+		display: none;
+	}
+	.avatar {
+		width: 100%;
+		margin: 10px 0;
+	}
+	.comments{
+		margin-top: 20px;
+	}
+}

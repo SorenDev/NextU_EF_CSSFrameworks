@@ -1,0 +1,52 @@
+body {
+	background: url(../../media/Visual-Eje-__H81.jpg) center no-repeat fixed;
+}
+.absolute {
+	background-color: rgba(116,10,144,0.85);
+	width: 80%;
+	margin: auto;
+}
+.headerrow{
+	border-bottom: 1px dashed white;
+}
+.logocol {
+	border-right: dashed 1px white;
+}
+/*-----------LEFT COLUMN-----------*/
+.leftcol {
+	border-right: 1px dashed white;
+}
+.leftcolcont {
+	background-color: white;
+	margin: 6px -6px;
+	padding: 10px;
+	border-radius: 10px;
+}
+#btn-search {
+	height: 45px
+}
+.favourites img {height: 90px;}
+
+.historial {margin: 10px;}
+.historial h5 {color: #45007a;}
+.historial ul {list-style-type: none;}
+/*-----------RIGHT COLUMN----------*/
+.rightcolcont {
+	background-color: #F5E0D0;
+	margin: 6px 0;
+	padding: 10px;
+	border-radius: 10px;
+}
+.cominput {height: 100px;}
+
+.comment {padding: 10px;}
+.userthumb {max-height: 50px;}
+.comicon{display: inline-block}
+.comtext{display: inline-block; height: 50px; margin-top: 0px;}
+/*------------------------------*/
+@media screen and (max-width: 480px) {
+	.absolute {width: 100%;}
+	.logocol {border: none}
+	.rightcolcont {margin: 0}
+	.userthumb {height: 30px;}
+}
